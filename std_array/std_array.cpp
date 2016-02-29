@@ -7,8 +7,8 @@ using  std::array;
 using  std::cout;
 using  std::cin;
 using  std::endl;
-
 int main() {
+    cout << "Entering Function " <<__func__ << endl;
     array<int, 3> arr = {9, 8, 7};
     cout << "Array size = " << arr.size() << endl;
     for (auto i : arr) {
