@@ -6,6 +6,8 @@
 using  std::array;
 using  std::cout;
 using  std::cin;
+using  std::endl;
+
 int main() {
     array<int, 3> arr = {9, 8, 7};
     cout << "Array size = " << arr.size() << endl;
