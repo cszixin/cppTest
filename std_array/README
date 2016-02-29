@@ -1,4 +1,4 @@
-本例子是为乐练习c++11中的 std::array
+本例子是为了练习c++11中的 std::array
 build
 cd build 
 cmake ..
