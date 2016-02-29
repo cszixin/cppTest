@@ -1,0 +1,4 @@
+简单的使用c++中异常的一个例子
+cd build
+cmake ..
+make
