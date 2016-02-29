@@ -1,11 +1,8 @@
 // AirlineTicketTest.cpp
-
 #include <iostream>
 #include <memory>
 #include "AirlineTicket.h"
-
 using namespace std;
-
 int main()
 {
   AirlineTicket myTicket;  // stack-based AirlineTicket
@@ -28,6 +25,5 @@ int main()
   AirlineTicket* myTicket3 = new AirlineTicket();
   // ... Use ticket 3
   delete myTicket3;  // delete the heap object
-
   return 0;
 } 
