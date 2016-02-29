@@ -1,0 +1,7 @@
+project(AirLine)
+aux_source_directory(. src)
+include_directories(./src/)
+add_subdirectory(src)
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+add_executable(AirLine ${src})
+target_link_libraries(AirLine airline)
