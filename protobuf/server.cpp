@@ -41,7 +41,7 @@ int main()
   while(1){
     sin_size = sizeof(struct sockaddr_in);
 
-    connectfd = accept(listenfd, (struct sockaddr *)&client, &sin_size);
+    connectfd = accept(listenfd, (struct sockaddr *)&client, (socklen_t*)&sin_size);
 
     numbytes = recv(connectfd, buf, MAXDATASIZE, 0);
     buf[numbytes] = '\0';

@@ -1,0 +1,5 @@
+project(client)
+set(SRC_LIST client.cpp  people.pb.cc)
+include_directories(/usr/local/include/)
+add_executable(client ${SRC_LIST})
+target_link_libraries(client libprotobuf.a)
