@@ -1,0 +1,5 @@
+project(server)
+set(SRC_LIST server.cpp  people.pb.cc)
+include_directories(/usr/local/include/)
+add_executable(server ${SRC_LIST})
+target_link_libraries(server libprotobuf.a)
